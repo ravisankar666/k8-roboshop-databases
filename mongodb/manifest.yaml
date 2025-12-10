@@ -49,8 +49,8 @@ spec:
        project: roboshop 
        component: mongodb
        tier: db
-        # has to match .spec.selector.matchLabels
-    spec:
+                 # has to match .spec.selector.matchLabels
+  spec:
       containers:
       - name: mongodb
         image: ravisankar666/mongodb:v1
