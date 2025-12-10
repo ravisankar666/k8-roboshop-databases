@@ -54,7 +54,6 @@ spec:
       containers:
       - name: mongodb
         image: ravisankar666/mongodb:v1
-       
         volumeMounts:
         - name: mongodb
           mountPath: /data/db
