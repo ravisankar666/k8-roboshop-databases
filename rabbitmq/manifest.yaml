@@ -7,15 +7,6 @@ metadata:
 spec:
   selector:
     project: roboshop
-    component: mong# service, headless service, statefulset, pvc
-apiVersion: v1
-kind: Service
-metadata:
-  name: rabbitmq
-  namespace: roboshop
-spec:
-  selector:
-    project: roboshop
     component: rabbitmq
     tier: db
   ports:
