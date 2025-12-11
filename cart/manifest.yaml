@@ -63,6 +63,7 @@ spec:
             port: liveness-port
           failureThreshold: 1
           periodSeconds: 15
+          initialDelaySeconds: 20
 ---
 apiVersion: v1
 kind: Service
